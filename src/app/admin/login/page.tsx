@@ -21,7 +21,7 @@ export default function AdminLogin() {
         // C1/C2: Simple Auth Logic with Dynamic Password
         setTimeout(() => {
             const storedPass = localStorage.getItem('admin_password');
-            const currentPass = storedPass || 'proseal2026';
+            const currentPass = storedPass || 'admin123';
 
             if (password === currentPass) {
                 localStorage.setItem('admin_token', 'authenticated_by_opus_c1');

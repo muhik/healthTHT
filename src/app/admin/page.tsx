@@ -23,7 +23,7 @@ export default function AdminDashboard() {
     // Settings State
     const [inputPixelId, setInputPixelId] = useState('');
     const [inputPassword, setInputPassword] = useState('');
-    const [savedPassword, setSavedPassword] = useState('proseal2026'); // Default C1
+    const [savedPassword, setSavedPassword] = useState('admin123'); // Default C1
 
     // A6: Order Workflow State
     const [isResiModalOpen, setIsResiModalOpen] = useState(false);
