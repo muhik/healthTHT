@@ -57,17 +57,6 @@ export default function AdminLogin() {
                         />
                     </div>
 
-                    <div className="relative">
-                        <Lock className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-400" />
-                        <input
-                            type="password"
-                            value={password}
-                            onChange={(e) => setPassword(e.target.value)}
-                            placeholder="Password Admin"
-                            className="w-full bg-slate-800 border border-slate-700 text-white pl-12 pr-4 py-4 rounded-xl focus:ring-2 focus:ring-amber-500 outline-none transition placeholder:text-slate-500"
-                        />
-                    </div>
-
                     <button
                         type="submit"
                         disabled={loading}
@@ -85,11 +74,6 @@ export default function AdminLogin() {
                     </button>
                 </form>
 
-                <div className="text-center mt-8 pt-6 border-t border-white/5">
-                    <p className="text-xs text-slate-500">
-                        System by <strong className="text-slate-400">Gemini (A)</strong> & <strong className="text-slate-400">Opus (C)</strong>
-                    </p>
-                </div>
                 <div className="text-center mt-8 pt-6 border-t border-white/5">
                     <p className="text-xs text-slate-500">
                         System by <strong className="text-slate-400">Gemini (A)</strong> & <strong className="text-slate-400">Opus (C)</strong>
