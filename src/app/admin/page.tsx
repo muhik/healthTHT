@@ -1,5 +1,7 @@
 'use client';
 
+export const dynamic = 'force-dynamic';
+
 import React, { useEffect, useState, useRef } from 'react';
 import { Package, BarChart2, DollarSign, ArrowRight, Users, Settings, Save, X, Eye, Bell, CheckCircle, Clock, Truck, Send, AlertCircle } from 'lucide-react';
 import { useRouter } from 'next/navigation';
