@@ -517,7 +517,7 @@ export default function CheckoutPage() {
                             <div className="w-20 h-20 bg-stone-200 rounded-lg flex-shrink-0 overflow-hidden border border-stone-300">
                                 {/* Gambar Kamera Endoskop sebagai thumbnail */}
                                 <img
-                                    src="/2. korekkameraonly.jpg"
+                                    src="/2.%20korekkameraonly.jpg"
                                     onError={handleImageError}
                                     alt="Pembersih Telinga Pintar"
                                     className="w-full h-full object-cover"
