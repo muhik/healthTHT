@@ -1,0 +1,9 @@
+name = "healththt"
+compatibility_date = "2024-03-28"
+compatibility_flags = ["nodejs_compat"]
+
+[env.production]
+name = "healththt"
+
+[env.preview]
+name = "healththt-preview"
